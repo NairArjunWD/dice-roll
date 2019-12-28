@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import Die from' '/Die';
 import './App.css';
+import { render } from '@testing-library/react';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Dice Roll</h1>
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+        <Die />
+      </div>
+    );
+  }
 }
 
 export default App;
