@@ -1,9 +1,8 @@
-import React from 'react';
-import Die from' '/Die';
+import React, { Component} from 'react';
+import Die from '/Die';
 import './App.css';
-import { render } from '@testing-library/react';
 
-function App() {
+class App extends Component {
   render() {
     return (
       <div className="App">
