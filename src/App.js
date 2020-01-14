@@ -6,7 +6,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Die />
+        <Die face='one' />
+        <Die face='two' />
+        <Die face='three' />
+        <Die face='four' />
+        <Die face='five' />
+        <Die face='six' />
       </div>
     );
   }
