@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import Die from '/Die';
+import Die from './Die';
 import './App.css';
 
 class App extends Component {
