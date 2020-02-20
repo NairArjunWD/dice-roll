@@ -1,7 +1,8 @@
 .RollD20 {
     display: flex;
     flex-flow: column nowrap;
-    min-height: 100vh;
+    min-height: 70vh;
+    background-color: greenyellow;
 }
 
 .RollD20-container {
