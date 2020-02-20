@@ -7,6 +7,7 @@ class RollD20 extends Component {
     constructor(props){
         super(props)
         this.state = {rolling: false}
+        this.roll = this.roll.bind(this);
     }
 
     roll() {
@@ -20,7 +21,7 @@ class RollD20 extends Component {
                 <div className='RollD20-Container'>
                     < D20 rolling={this.state.rolling}/>
                 </div>
-                <button disabled={this.state}>
+                <button onClick={this.roll} disabled={this.state.roll}>
                     {this.state.rolling ? 'Rolling...' : 'Roll Dice'}
                 </button>
             </div>
