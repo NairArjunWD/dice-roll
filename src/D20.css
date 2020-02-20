@@ -1,0 +1,16 @@
+.fas {
+    font-size: 10em;
+    padding: 0.25em;
+    color: rgb(162, 2, 2);
+    position: relative;
+    text-align: center;
+}
+
+.num {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: .20em;
+}
