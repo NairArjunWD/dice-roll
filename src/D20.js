@@ -8,7 +8,7 @@ class D20 extends Component {
             <div>
                 <i class="fas fa-dice-d20">
                     <print class='num'>
-                        z
+                        {Math.floor(Math.random() * 20)}
                     </print>
                 </i>
             </div>
