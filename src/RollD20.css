@@ -1,0 +1,28 @@
+.RollD20 {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+.RollD20-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.RollD20 button {
+    align-self: center;
+    width: 15em;
+    padding: 1.5em;
+    border-radius: 10px;
+    color: rgb(162, 2, 2);
+    background-color: white;
+    margin-top: 3em;
+    font-weight: 900;
+}
+
+.RollD20 button:hover {
+    color: white;
+    background-color: rgb(162, 2, 2);
+    cursor: pointer;
+}
