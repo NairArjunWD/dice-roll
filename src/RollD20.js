@@ -13,6 +13,10 @@ class RollD20 extends Component {
     roll() {
         const D20Num = Math.floor(Math.random() * 20) + 1;
         this.setState({D20Result: D20Num});
+
+        setTimeout(() => {
+            this.setState({ rolling: false });
+        }, 1000);
     }
 
     render() {

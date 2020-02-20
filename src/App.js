@@ -10,10 +10,6 @@ class App extends Component {
         <RollDice />
         <RollD20 />
       </div>
-
-      // <div className="App">
-      //   <RollD20 />
-      // </div>
     );
   }
 }
