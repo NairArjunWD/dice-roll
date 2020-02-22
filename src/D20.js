@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './D20.css'
-// test
+
 class D20 extends Component {
 
     render() {
