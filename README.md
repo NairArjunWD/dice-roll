@@ -1,5 +1,7 @@
 ## Dice Roll
 
+https://dice-roll-5ac4e.firebaseapp.com/
+
 Just a simple dice rolling project. It uses a font awesome api to display the dice faces and has small rolling animations to simulate a dice roll.
 
 ![Screenshot](diceScreenshot.png)
